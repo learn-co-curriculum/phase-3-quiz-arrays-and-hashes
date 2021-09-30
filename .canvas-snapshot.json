@@ -98,7 +98,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2971,
+          "id": 6035,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">word</span><span class=\"o\">|</span>\n  <span class=\"n\">word</span> <span class=\"o\">==</span> <span class=\"n\">word</span><span class=\"p\">.</span><span class=\"nf\">upcase</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -106,7 +106,7 @@
           "weight": 100.0
         },
         {
-          "id": 5226,
+          "id": 7953,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">word</span><span class=\"o\">|</span>\n  <span class=\"n\">word</span><span class=\"p\">.</span><span class=\"nf\">upcase</span> <span class=\"o\">==</span> <span class=\"kp\">true</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -114,7 +114,7 @@
           "weight": 0.0
         },
         {
-          "id": 139,
+          "id": 3961,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">word</span><span class=\"o\">|</span>\n  <span class=\"n\">word</span><span class=\"p\">.</span><span class=\"nf\">upcase?</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -122,7 +122,7 @@
           "weight": 0.0
         },
         {
-          "id": 4901,
+          "id": 1620,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">word</span><span class=\"o\">|</span>\n  <span class=\"n\">upcase?</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -130,7 +130,7 @@
           "weight": 0.0
         },
         {
-          "id": 6189,
+          "id": 3962,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -163,7 +163,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5441,
+          "id": 2747,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span><span class=\"p\">.</span><span class=\"nf\">map</span> <span class=\"p\">{</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span> <span class=\"n\">n</span> <span class=\"o\">*</span> <span class=\"n\">n</span> <span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
@@ -171,7 +171,7 @@
           "weight": 100.0
         },
         {
-          "id": 9035,
+          "id": 9981,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span><span class=\"p\">.</span><span class=\"nf\">map</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n <span class=\"n\">n</span> <span class=\"o\">+</span> <span class=\"n\">n</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -179,7 +179,7 @@
           "weight": 0.0
         },
         {
-          "id": 532,
+          "id": 2310,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span><span class=\"p\">.</span><span class=\"nf\">map</span> <span class=\"p\">{</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span> <span class=\"n\">nn</span> <span class=\"p\">}</span>\n</code></pre></div>",
           "comments": "",
@@ -187,7 +187,7 @@
           "weight": 0.0
         },
         {
-          "id": 1630,
+          "id": 7317,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -220,7 +220,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6354,
+          "id": 8797,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -228,7 +228,7 @@
           "weight": 100.0
         },
         {
-          "id": 7225,
+          "id": 5730,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"dog\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -236,7 +236,7 @@
           "weight": 0.0
         },
         {
-          "id": 6751,
+          "id": 256,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"n\">pet</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -244,7 +244,7 @@
           "weight": 0.0
         },
         {
-          "id": 9973,
+          "id": 5618,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -252,7 +252,7 @@
           "weight": 0.0
         },
         {
-          "id": 3788,
+          "id": 8672,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -285,7 +285,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4742,
+          "id": 9027,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -293,7 +293,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9055,
+          "id": 9108,
           "text": "",
           "comments": "",
           "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
@@ -301,7 +301,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
         },
         {
-          "id": 3766,
+          "id": 5249,
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -309,7 +309,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 1970,
+          "id": 1546,
           "text": "",
           "comments": "",
           "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
@@ -317,7 +317,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9989,
+          "id": 5486,
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -350,7 +350,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4853,
+          "id": 1746,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">num</span><span class=\"o\">|</span>\n  <span class=\"n\">num</span><span class=\"p\">.</span><span class=\"nf\">odd?</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -358,7 +358,7 @@
           "weight": 100.0
         },
         {
-          "id": 5856,
+          "id": 666,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">num</span><span class=\"o\">|</span>\n  <span class=\"n\">num</span><span class=\"p\">.</span><span class=\"nf\">even?</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -366,7 +366,7 @@
           "weight": 0.0
         },
         {
-          "id": 3689,
+          "id": 6517,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">num</span><span class=\"o\">|</span>\n  <span class=\"n\">num</span> <span class=\"o\">/</span> <span class=\"mi\">2</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
@@ -374,7 +374,7 @@
           "weight": 0.0
         },
         {
-          "id": 9489,
+          "id": 6132,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
@@ -407,7 +407,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/array-basics\">Array Basics</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4821,
+          "id": 1909,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">famous_cats</span><span class=\"p\">.</span><span class=\"nf\">include?</span><span class=\"p\">(</span><span class=\"s2\">\"Maru\"</span><span class=\"p\">)</span>\n</code></pre></div>",
           "comments": "",
@@ -415,7 +415,7 @@
           "weight": 100.0
         },
         {
-          "id": 4537,
+          "id": 9334,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">famous_cats</span><span class=\"p\">.</span><span class=\"nf\">include?</span>\n</code></pre></div>",
           "comments": "",
@@ -423,7 +423,7 @@
           "weight": 0.0
         },
         {
-          "id": 5969,
+          "id": 3352,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">famous_cats</span><span class=\"p\">.</span><span class=\"nf\">include?</span><span class=\"p\">(</span><span class=\"kp\">true</span><span class=\"p\">)</span>\n</code></pre></div>",
           "comments": "",
@@ -431,11 +431,11 @@
           "weight": 0.0
         },
         {
-          "id": 6208,
+          "id": 1474,
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
           "weight": 0.0
         }
       ],
@@ -464,7 +464,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2953,
+          "id": 8985,
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can use Ruby's built-in <code>.even?</code> method.</p>",
@@ -472,7 +472,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span><span class=\"p\">.</span><span class=\"nf\">even?</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9229,
+          "id": 6749,
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can the <code>%</code> (remainder) method to see if the number is\nevenly divisible by two.</p>",
@@ -480,7 +480,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">%</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9921,
+          "id": 2768,
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Only <code>0 / 2 == 0</code> will return true,\nso we'd miss all the other even numbers.</p>",
@@ -488,7 +488,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">/</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 3781,
+          "id": 7228,
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Adding 2 to a number will just\nreturn a new number, and since all numbers in Ruby are truthy, we'll end up\nwith an array with the same numbers as our original array.</p>",
@@ -496,7 +496,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">+</span> <span class=\"mi\">2</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 2604,
+          "id": 7359,
           "text": "",
           "comments": "",
           "comments_html": "",
