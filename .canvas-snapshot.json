@@ -4,7 +4,7 @@
     "title": "Arrays and Hashes Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/20131",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/20131?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-arrays-and-hashes\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-arrays-and-hashes/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-arrays-and-hashes\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-arrays-and-hashes/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -88,7 +88,7 @@
       "position": null,
       "question_name": "Using .find",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Below we have a variable, <code>quiet_and_loud</code>, that is set equal to an array of\nstrings:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"hi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"HI\"</span><span class=\"p\">,</span> <span class=\"s2\">\"shhh\"</span><span class=\"p\">,</span> <span class=\"s2\">\"WHAT?!\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Which of the following code blocks uses the <code>.find</code> method correctly to iterate\nover the array and return the first word that is all uppercase letters?</p>\n\n<blockquote>\n<p>This requires using the <code>.upcase</code> method. If you're unsure how to do that,\nreference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
+      "question_text": "<p>Below we have a variable, <code>quiet_and_loud</code>, that is set equal to an array of strings:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"hi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"HI\"</span><span class=\"p\">,</span> <span class=\"s2\">\"shhh\"</span><span class=\"p\">,</span> <span class=\"s2\">\"WHAT?!\"</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Which of the following code blocks uses the <code>.find</code> method correctly to iterate over the array and return the first word that is all uppercase letters?</p>\n<blockquote>\n<p>This requires using the <code>.upcase</code> method. If you're unsure how to do that, reference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -110,7 +110,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">quiet_and_loud</span><span class=\"p\">.</span><span class=\"nf\">find</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">word</span><span class=\"o\">|</span>\n  <span class=\"n\">word</span><span class=\"p\">.</span><span class=\"nf\">upcase</span> <span class=\"o\">==</span> <span class=\"kp\">true</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Not quite. The <code>find</code> method iterates over an array and returns the first\nelement for which the block returns true. <code>word.upcase</code> will always return a\nstring, and when use the <code>==</code> operator to compare any string to <code>true</code>, it\nwill return false.</p>",
+          "comments_html": "<p>Not quite. The <code>find</code> method iterates over an array and returns the first element for which the block returns true. <code>word.upcase</code> will always return a string, and when we use the <code>==</code> operator to compare any string to <code>true</code>, it will return false.</p>",
           "weight": 0.0
         },
         {
@@ -134,7 +134,7 @@
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0
         }
       ],
@@ -153,7 +153,7 @@
       "position": null,
       "question_name": "Using .map",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Below we have a variable, <code>nums</code>, set equal to an array of numbers:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Which piece of code enumerate over the array with the <code>.map</code> method and return a\nnew array of the <strong>squares</strong> of those numbers?</p>",
+      "question_text": "<p>Below we have a variable, <code>nums</code>, set equal to an array of numbers:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">nums</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Which piece of code will correctly enumerate over the array with the <code>.map</code> method and return a new array of the <strong>squares</strong> of those numbers?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -181,7 +181,7 @@
         {
           "id": 1895,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span><span class=\"p\">.</span><span class=\"nf\">collect</span> <span class=\"p\">{</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span> <span class=\"n\">nn</span> <span class=\"p\">}</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">nums</span><span class=\"p\">.</span><span class=\"nf\">map</span> <span class=\"p\">{</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span> <span class=\"n\">nn</span> <span class=\"p\">}</span>\n</code></pre>\n</div>",
           "comments": "",
           "comments_html": "<p><code>map</code> will return a new array with the same length as the original array, and\neach element will be the return value of the block. In this example, we'd get\nan error since <code>nn</code> is not a valid variable name, and it's not the correct\nsyntax for multiplying a number by itself.</p>",
           "weight": 0.0
@@ -191,7 +191,7 @@
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0
         }
       ],
@@ -210,7 +210,7 @@
       "position": null,
       "question_name": "Using .filter",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Below we have a variable, <code>cats_and_dogs</code>, set equal to an array of strings\nthat are either a <code>\"cat\"</code> or a <code>\"dog\"</code>:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>We all know that cats and dogs don't get along. Which piece of code let us\niterate over the array and return an array of only cats?</p>",
+      "question_text": "<p>Below we have a variable, <code>cats_and_dogs</code>, set equal to an array of strings that are either a <code>\"cat\"</code> or a <code>\"dog\"</code>:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>We all know that cats and dogs don't get along. Which piece of code lets us iterate over the array and return an array of only cats?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -224,7 +224,7 @@
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe <code>pet</code> variable is <code>\"cat\"</code>, we just need to use the <code>==</code> method to compare\nthe strings.</p>",
+          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all elements for which the block returns true. For the block to return true when the <code>pet</code> variable is <code>\"cat\"</code>, we just need to use the <code>==</code> operator to compare the strings.</p>",
           "weight": 100.0
         },
         {
@@ -256,7 +256,7 @@
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0
         }
       ],
@@ -275,7 +275,7 @@
       "position": null,
       "question_name": "Using .each",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method\nto enumerate over the array and output a string to the terminal with each lunch\nmenu item with an <code>\"!\"</code> at the end.</p>\n\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
+      "question_text": "<p>We have a variable <code>lunch_menu</code>, set equal to an array of lunch menu items:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"pizza\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sandwich\"</span><span class=\"p\">,</span> <span class=\"s2\">\"sushi\"</span><span class=\"p\">,</span> <span class=\"s2\">\"soup\"</span><span class=\"p\">,</span> <span class=\"s2\">\"salad\"</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Since you're super hungry and super excited about lunch, use the <code>.each</code> method to enumerate over the array and output a string to the terminal with each lunch menu followed by an <code>\"!\"</code> at the end.</p>\n<p>Which piece of code will achieve the desired result? Select all that apply:</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -285,7 +285,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2969,
+          "id": "2969",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -293,7 +293,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 1852,
+          "id": "1852",
           "text": "",
           "comments": "",
           "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
@@ -301,7 +301,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
         },
         {
-          "id": 9966,
+          "id": "9966",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -309,7 +309,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 7236,
+          "id": "7236",
           "text": "",
           "comments": "",
           "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
@@ -317,10 +317,10 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 4353,
+          "id": "4353",
           "text": "",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0,
           "html": "<p>I don't know.</p>"
         }
@@ -340,7 +340,7 @@
       "position": null,
       "question_name": "Using .find",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>We have a variable <code>odds_and_evens</code> set equal to an array of numbers:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">18</span><span class=\"p\">,</span> <span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">,</span> <span class=\"mi\">24</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>How can we use the <code>.find</code> method to iterate over the array and return only the\n<em>first</em> array element that is <em>odd</em>?</p>\n\n<blockquote>\n<p>This requires checking if a number is odd. If you're unsure how to do that,\nreference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
+      "question_text": "<p>We have a variable <code>odds_and_evens</code> set equal to an array of numbers:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">18</span><span class=\"p\">,</span> <span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">,</span> <span class=\"mi\">24</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>How can we use the <code>.find</code> method to iterate over the array and return only the <em>first</em> array element that is <em>odd</em>?</p>\n<blockquote>\n<p>This requires checking if a number is odd. If you're unsure how to do that, reference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -378,7 +378,7 @@
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0
         }
       ],
@@ -397,7 +397,7 @@
       "position": null,
       "question_name": "Using .include?",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>We have a variable <code>famous_cats</code> set equal to an array of famous cats:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">famous_cats</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"Maru\"</span><span class=\"p\">,</span> <span class=\"s2\">\"Lil Bub\"</span><span class=\"p\">,</span> <span class=\"s2\">\"Grumpy Cat\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>How could we use the <code>.include?</code> method to check and see if the array\nincludes the string <code>\"Maru\"</code>?</p>",
+      "question_text": "<p>We have a variable <code>famous_cats</code> set equal to an array of famous cats:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">famous_cats</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"Maru\"</span><span class=\"p\">,</span> <span class=\"s2\">\"Lil Bub\"</span><span class=\"p\">,</span> <span class=\"s2\">\"Grumpy Cat\"</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>How could we use the <code>.include?</code> method to check and see if the array includes the string <code>\"Maru\"</code>?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -435,7 +435,7 @@
           "text": "",
           "html": "<p>I don't know.</p>",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0
         }
       ],
@@ -454,7 +454,7 @@
       "position": null,
       "question_name": "Using .filter",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>We have a variable <code>odds_and_evens</code> set equal to an array of numbers:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">0</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">18</span><span class=\"p\">,</span> <span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">,</span> <span class=\"mi\">24</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Which code can we use with the <code>.filter</code> enumerator to iterate over the array\nand return any even numbers? Select all that apply.</p>\n\n<blockquote>\n<p>This requires checking if a number is even. If you're unsure how to do that,\nreference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
+      "question_text": "<p>We have a variable <code>odds_and_evens</code> set equal to an array of numbers:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">0</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">18</span><span class=\"p\">,</span> <span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"mi\">10</span><span class=\"p\">,</span> <span class=\"mi\">24</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Which code can we use with the <code>.filter</code> enumerator to iterate over the array and return any even numbers? Select all that apply.</p>\n<blockquote>\n<p>This requires checking if a number is even. If you're unsure how to do that, reference the Ruby Documentation or try a Google search!</p>\n</blockquote>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -464,7 +464,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 7916,
+          "id": "7916",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can use Ruby's built-in <code>.even?</code> method.</p>",
@@ -472,15 +472,15 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span><span class=\"p\">.</span><span class=\"nf\">even?</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 4928,
+          "id": "4928",
           "text": "",
           "comments": "",
-          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can the <code>%</code> (remainder) method to see if the number is\nevenly divisible by two.</p>",
+          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all elements for which the block returns true. For the block to return true when the number is even, we can the <code>%</code> (remainder) operator to see if the number is evenly divisible by two.</p>",
           "weight": 100.0,
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">%</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 8442,
+          "id": "8442",
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Only <code>0 / 2 == 0</code> will return true,\nso we'd miss all the other even numbers.</p>",
@@ -488,7 +488,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">/</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9821,
+          "id": "9821",
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Adding 2 to a number will just\nreturn a new number, and since all numbers in Ruby are truthy, we'll end up\nwith an array with the same numbers as our original array.</p>",
@@ -496,10 +496,10 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">+</span> <span class=\"mi\">2</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 2849,
+          "id": "2849",
           "text": "",
           "comments": "",
-          "comments_html": "",
+          "comments_html": "<div>\n<div><span>Be sure to study the source/s for this question. You'll get it next time.</span></div>\n</div>",
           "weight": 0.0,
           "html": "<p>I don't know.</p>"
         }
