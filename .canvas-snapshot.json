@@ -4,7 +4,7 @@
     "title": "Arrays and Hashes Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/20131",
     "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/20131?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-arrays-and-hashes\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-arrays-and-hashes/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-arrays-and-hashes\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-arrays-and-hashes/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 9648,
     "show_correct_answers_last_attempt": true,
-    "version_number": 3,
+    "version_number": 4,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -154,7 +154,7 @@
       "position": null,
       "question_name": "Using .map",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Below we have a variable, <code>nums</code>, set equal to an array of numbers:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"n\">nums</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">]</span>\n</code></pre>\n</div>\n<p>Which piece of code enumerates over the array with the <code>.map</code> method and returns a new array of the <strong>squares</strong> of those numbers?</p>",
+      "question_text": "<p>Below we have a variable, <code>nums</code>, set equal to an array of numbers:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">nums</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">2</span><span class=\"p\">,</span> <span class=\"mi\">3</span><span class=\"p\">,</span> <span class=\"mi\">4</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Which piece of code enumerates over the array with the <code>.map</code> method and returns\na new array of the <strong>squares</strong> of those numbers?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -286,7 +286,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 5099,
+          "id": "5099",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -294,7 +294,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"n\">lunch_item</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 2459,
+          "id": "2459",
           "text": "",
           "comments": "",
           "comments_html": "<p>This code would result in an error, since <code>lunch_menu</code> is an array, and we\ncan't us the <code>+</code> method to add a string to the array. How can we iterate over\neach element?</p>",
@@ -302,7 +302,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"nb\">puts</span> <span class=\"n\">lunch_menu</span> <span class=\"o\">+</span> <span class=\"s2\">\"!\"</span>\n</code></pre></div>"
         },
         {
-          "id": 9557,
+          "id": "9557",
           "text": "",
           "comments": "",
           "comments_html": "<p>Correct! Using <code>each</code> lets us access each element of the array in the block,\nand we can output a string by using <code>puts</code>.</p>",
@@ -310,7 +310,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"nb\">puts</span> <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 4939,
+          "id": "4939",
           "text": "",
           "comments": "",
           "comments_html": "<p>Using <code>each</code> lets us access each element of the array in the block, but this\nmethod doesn't output anything to the terminal since we aren't using <code>puts</code>.</p>",
@@ -318,7 +318,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">lunch_menu</span><span class=\"p\">.</span><span class=\"nf\">each</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">lunch_item</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"</span><span class=\"si\">#{</span><span class=\"n\">lunch_item</span><span class=\"si\">}</span><span class=\"s2\">!\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 9449,
+          "id": "9449",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
@@ -465,7 +465,7 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6702,
+          "id": "6702",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can use Ruby's built-in <code>.even?</code> method.</p>",
@@ -473,7 +473,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span><span class=\"p\">.</span><span class=\"nf\">even?</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 7222,
+          "id": "7222",
           "text": "",
           "comments": "",
           "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe number is even, we can the <code>%</code> (remainder) operator to see if the number is\nevenly divisible by two.</p>",
@@ -481,7 +481,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">%</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 2065,
+          "id": "2065",
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Only <code>0 / 2 == 0</code> will return true,\nso we'd miss all the other even numbers.</p>",
@@ -489,7 +489,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">/</span> <span class=\"mi\">2</span> <span class=\"o\">==</span> <span class=\"mi\">0</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 5171,
+          "id": "5171",
           "text": "",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. Adding 2 to a number will just\nreturn a new number, and since all numbers in Ruby are truthy, we'll end up\nwith an array with the same numbers as our original array.</p>",
@@ -497,7 +497,7 @@
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">odds_and_evens</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">n</span><span class=\"o\">|</span>\n  <span class=\"n\">n</span> <span class=\"o\">+</span> <span class=\"mi\">2</span>\n<span class=\"k\">end</span>\n</code></pre></div>"
         },
         {
-          "id": 6025,
+          "id": "6025",
           "text": "",
           "comments": "",
           "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
