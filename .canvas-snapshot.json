@@ -211,7 +211,7 @@
       "position": null,
       "question_name": "Using .filter",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Below we have a variable, <code>cats_and_dogs</code>, set equal to an array of strings\nthat are either a <code>\"cat\"</code> or a <code>\"dog\"</code>:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>We all know that cats and dogs don't get along. Which piece of code lets us\niterate over the array and return an array of only cats?</p>",
+      "question_text": "<p>Below we have a variable, <code>cats_and_dogs</code>, set equal to an array of strings\nthat are either <code>\"cat\"</code> or <code>\"dog\"</code>:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span> <span class=\"o\">=</span> <span class=\"p\">[</span><span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"cat\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">,</span> <span class=\"s2\">\"dog\"</span><span class=\"p\">]</span>\n</code></pre></div>\n<p>Say it's time to take our dogs to the dogwash. We all know that cats don't like\nto get wet, so we want to separate out just the dogs. Which piece of code lets\nus iterate over the array and return an array of only dogs?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -221,19 +221,19 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/enumerables-common-methods\">Enumerables: Common Methods</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 9542,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe <code>pet</code> variable is <code>\"cat\"</code>, we just need to use the <code>==</code> operator to compare\nthe strings.</p>",
-          "weight": 100.0
-        },
-        {
           "id": 8480,
           "text": "",
           "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"dog\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
-          "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. This would give us an array of all\n<code>\"dog\"</code> strings, not <code>\"cat\"</code> strings.</p>",
+          "comments_html": "<p>Right! The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. For the block to return true when\nthe <code>pet</code> variable is <code>\"dog\"</code>, we just need to use the <code>==</code> operator to compare\nthe strings.</p>",
+          "weight": 100.0
+        },
+        {
+          "id": 9542,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"n\">pet</span> <span class=\"o\">==</span> <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true. This would give us an array of all\n<code>\"cat\"</code> strings, not <code>\"dog\"</code> strings.</p>",
           "weight": 0.0
         },
         {
@@ -245,9 +245,9 @@
           "weight": 0.0
         },
         {
-          "id": 6514,
+          "id": 5361,
           "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"cat\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
+          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"n\">cats_and_dogs</span><span class=\"p\">.</span><span class=\"nf\">filter</span> <span class=\"k\">do</span> <span class=\"o\">|</span><span class=\"n\">pet</span><span class=\"o\">|</span>\n  <span class=\"s2\">\"dog\"</span>\n<span class=\"k\">end</span>\n</code></pre></div>",
           "comments": "",
           "comments_html": "<p>The <code>filter</code> method iterates over an array and returns an array of all\nelements for which the block returns true (or a truthy value). Since strings\nare truthy in Ruby, this would return all pets in the original array, so we'd\nstill end up with cats and dogs together.</p>",
           "weight": 0.0
